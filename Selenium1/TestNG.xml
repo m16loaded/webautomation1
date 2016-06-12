@@ -1,0 +1,18 @@
+
+<suite name ="TestWiki" verbose="3" parallel="tests">
+      <test name="Wiki FF">
+      <parameter name="browser" value="FF"></parameter>
+          <classes>
+          <class name="com.SeleniumStudy.WebDriverTest"/>                 
+               </classes>
+          </test>
+        
+
+      <test name="Wiki Chrome">
+      <parameter name="browser" value="Chrome"></parameter>
+          <classes>
+          <class name="com.SeleniumStudy.WebDriverTest"/>                 
+               </classes>
+          </test>
+        </suite>          
+          

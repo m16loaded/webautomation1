@@ -1,0 +1,374 @@
+package Detailed;
+
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.Keys;
+
+import Detailed.zodiacEnum;
+
+
+
+
+
+
+
+import java.util.Iterator;
+import java.util.List;
+import java.util.Random;
+
+public class firstDetailed {
+	
+	public static void main(String[] args) throws InterruptedException {
+		String Login="forcing.it";
+    	String Pass="a1b2c3qwerty";
+//		String Login="salty.fur";
+//    	String Pass="A1b2c3qwert";
+    	int user=1;
+    	int clicked=0;
+    	int count=0;
+    	String name = null ;
+    	String Switch = "allFree";    //low or mid will rotate, allFree will not
+    	//search quarry
+    	String low="http://my.mail.ru/my/search_people?&gender=2&agerange=15&family=3&infofields=true";
+    	String mid="http://my.mail.ru/my/search_people?&gender=2&agerange=16&family=3&infofields=true";
+    	String allFree="http://my.mail.ru/my/search_people?&gender=2&family=5&infofields=true";
+    	String AiresLow= "http://my.mail.ru/my/search_people?&gender=2&agerange=15&family=5&zodiac=1&infofields=true";
+    	String TaurusLow= "http://my.mail.ru/my/search_people?&gender=2&agerange=15&family=5&zodiac=2&infofields=true";
+    	String GminiLow= "http://my.mail.ru/my/search_people?&gender=2&agerange=15&family=5&zodiac=3&infofields=true";
+    	String CancerLow= "http://my.mail.ru/my/search_people?&gender=2&agerange=15&family=5&zodiac=4&infofields=true";
+    	String LeoLow= "http://my.mail.ru/my/search_people?&gender=2&agerange=15&family=5&zodiac=5&infofields=true";
+    	String VirgoLow= "http://my.mail.ru/my/search_people?&gender=2&agerange=15&family=5&zodiac=6&infofields=true";
+    	String LibraLow= "http://my.mail.ru/my/search_people?&gender=2&agerange=15&family=5&zodiac=7&infofields=true";
+    	String ScorpioLow= "http://my.mail.ru/my/search_people?&gender=2&agerange=15&family=5&zodiac=8&infofields=true";
+    	String SagittariusLow= "http://my.mail.ru/my/search_people?&gender=2&agerange=15&family=5&zodiac=9&infofields=true"; 
+    	String CapricornLow= "http://my.mail.ru/my/search_people?&gender=2&agerange=15&family=5&zodiac=10&infofields=true";	
+    	String AquariusLow= "http://my.mail.ru/my/search_people?&gender=2&agerange=15&family=5&zodiac=11&infofields=true";
+    	String PiecesLow= "http://my.mail.ru/my/search_people?&gender=2&agerange=15&family=5&zodiac=12&infofields=true";
+    	String zodiac=null;
+    	int math=0;
+    	
+    	String subbmitButton = "/html/body/div[1]/div[2]/div[1]/div[1]/div/form/div[4]/input"; 
+    	String closeButton = "//*[contains(@id,'b-photo-close')]" ;
+    	String voteFive ="//*[contains(@data-vote-mark,'5')]" ;
+    	String getNameInsidePhoto ="//*[contains(@class,'booster-sc b-photo__content-author-name')]";
+    	
+    	//random
+ 
+    	
+	    
+	    
+	    FirefoxProfile profile = new FirefoxProfile();
+	    //Tweaks
+	    profile.setPreference("browser.migration.version", 9001); //in order for all of this to work you have to use an older version
+//	    profile.setPreference("permissions.default.stylesheet", 2);
+//	    profile.setPreference("permissions.default.image", 2);
+	    profile.setPreference("xpinstall.signatures.required", false);  //in order to remove the annoying FF popup at the start
+	    profile.setPreference("browser.startup.homepage", "about:blank");
+	    profile.setPreference("startup.homepage_welcome_url", "about:blank");
+	    profile.setPreference("startup.homepage_welcome_url.additional", "about:blank");
+	  //TWEAKS
+	 // Try to use less memory
+	    profile.setPreference("browser.sessionhistory.max_entries", 10);
+	    profile.setPreference("browser.sessionhistory.max_total_viewers", 4);
+	    profile.setPreference("browser.sessionstore.max_tabs_undo", 4);
+	    profile.setPreference("browser.sessionstore.interval", 1800000);
+	    
+	 // Speed up firefox by pipelining requests on a single connection
+	    profile.setPreference("network.http.keep-alive", true);
+	    profile.setPreference("network.http.pipelining", true);
+	    profile.setPreference("network.http.proxy.pipelining", true);
+	    profile.setPreference("network.http.pipelining.maxrequests", 8);
+	    
+	 // misc confs to avoid useless updates
+	    profile.setPreference("browser.search.update", false);
+	    profile.setPreference("browser.bookmarks.restore_default_bookmarks", false);
+	    
+	 // prevent FF from giving health reports
+	    profile.setPreference("datareporting.policy.dataSubmissionEnabled", false);
+	    profile.setPreference("datareporting.healthreport.uploadEnabled", false);
+	    profile.setPreference("datareporting.healthreport.service.firstRun", false);
+	    profile.setPreference("datareporting.healthreport.service.enabled", false);
+	    profile.setPreference("datareporting.healthreport.logging.consoleEnabled", false);
+	    
+
+	    WebDriver driver = new FirefoxDriver(profile);
+	    WebDriverWait wait = new WebDriverWait(driver, 30);
+	    
+	    driver.get(allFree);
+	    driver.manage().window().maximize();
+	    driver.findElement(By.name("Login")).sendKeys(Login);
+	    driver.findElement(By.name("Password")).sendKeys(Pass);
+	    driver.findElement(By.xpath(subbmitButton)).click();
+	    Thread.sleep(3000);
+
+
+	    
+			  
+	   for(int Bigloop=0;Bigloop<100;Bigloop++){
+	    	//random zodiac
+	       	
+			math=(int)Math.floor(1+(Math.random()*12 +1));   //1 - min 12 - max
+	    	
+			
+			switch (math) {
+			  case 1:
+				  zodiac=AiresLow; 
+			        break;
+			  case 2: 
+				  zodiac=TaurusLow; 
+			        break;
+			  case 3:
+				  zodiac=GminiLow; 
+			        break;
+			  case 4: 
+				  zodiac=CancerLow;
+			        break;
+			  case 5:
+				  zodiac=LeoLow; 
+			        break;
+			  case 6: 
+				  zodiac=VirgoLow; 
+			        break;
+			  case 7:
+				  zodiac=LibraLow; 
+			        break;
+			  case 8: 
+				  zodiac=ScorpioLow; 
+			        break;
+			  case 9:
+				  zodiac=SagittariusLow;
+			        break;
+			  case 10: 
+				  zodiac=CapricornLow; 
+			        break;
+			  case 11:
+				  zodiac=AquariusLow; 
+			        break;
+			  case 12: 
+				  zodiac=PiecesLow; 
+			        break;
+
+			}
+			driver.get(zodiac);
+			user=1;
+//			Thread.sleep(1000); 
+	    for(int loop=0;loop<50;loop++){
+	    	
+
+	   
+	    	if(!driver.findElements(By.xpath("/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[1]/div["+user+"]/div[2]/div[2]/a[1]")).isEmpty()){ //if is not found, go to the end of the loop
+	    WebElement element = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[1]/div["+user+"]/div[2]/div[2]/a[1]"));
+	  ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element); //scroll to the object so the object is on top of the page
+	  element.sendKeys(Keys.ARROW_UP); // get one up so it be visible
+	  Thread.sleep(500); 
+
+
+	  element.click();
+		
+	    if(!driver.findElements(By.xpath(voteFive)).isEmpty()){
+	    	driver.findElement(By.xpath(voteFive)).click();
+	    	Thread.sleep(500);
+	    	 name = driver.findElement(By.xpath(getNameInsidePhoto)).getText();
+	    	 String str = driver.getCurrentUrl();
+	 	    System.out.println("The current URL is " + str);
+	    	 System.out.println(name);
+	    }
+
+	    if(!driver.findElements(By.xpath(closeButton)).isEmpty()){
+	    driver.findElement(By.xpath(closeButton)).click();
+	    }
+
+	    Thread.sleep(500);
+	    
+	    
+	    }
+	    user++;
+	    count++;
+	    System.out.println(count);
+	    
+	    
+	    }
+	    //replaced by zodiac
+	    
+//		   if(Switch.equals("low")){
+//			   Switch="mid";
+//			   user=1;
+//		       driver.get(mid); //get to another range after
+//		       Thread.sleep(700);
+//		   }
+//		   else if(Switch.equals("mid")) {
+//			   Switch="low";
+//			   user=1;			   
+//			   driver.get(low);
+//			   Thread.sleep(700);
+//		     }
+	    
+	 
+	    
+	    
+	    
+	       
+	}
+	   String str = driver.getCurrentUrl();
+	    System.out.println("The current URL is " + str);
+	    Thread.sleep(6000);
+	    driver.close();
+	               
+	   
+	}
+	
+//	public static void mid(){
+//		driver.get(low);
+//		
+//    }
+
+
+}
+
+
+// xpaths
+
+//ctrl+7
+//$x("//*[@title='Вика Ратынская'][@href='/mail/goacora/']")
+//$x("//*[@title='Вика Ратынская'][contains(@href, '/mail/goacora/')]")
+//$x("//*[contains(@href, '/mail/goacora/')]")
+// /html/body/div[1]/div[2]/div[2]/div/div/div[1]/div[2]/div[1]/div/a
+// /html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[1]/div[2]/div[2]/div[2]/a[1]   press on secondary pic
+//$x("//*[contains(@style, 'content.foto.my.mail.ru/mail')]")
+//$x("//*[contains(@id,'b-photo-close')]")  close photo button
+//$x("//*[contains(@style, 'content.foto.my.mail.ru/mail')][last()-6]")
+//$x("//*[contains(@type,'photolayer')]")
+//$x("//*[contains(@type,'photolayer')][contains(@style,'content.foto.my.mail.ru/mail')]")
+//$x("//*[contains(@class,'b-search__users__item__field b-search__users__item__name   ')]")
+
+// /html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[1]/div[1]/div[2]/div[2]/a[1]  first photo
+// /html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[1]/div[2]/div[2]/div[2]/a[1]   second
+// /html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[1]/div[3]/div[2]/div[2]/a[1]    third
+
+// $x("//*[contains(@class,'b-photo__marks-item-5')]")    vote 5
+// $x("//*[contains(@data-vote-mark,'5')]")   vote 5
+// /html/body/div[1]/div[2]/div[8]/div[1]/div[2]/div/div[4]/span[2]  vote 5
+//$x("//*[contains(@class,'booster-sc b-photo__content-author-name')]")  user name inside the photo
+
+
+
+
+
+
+
+
+//unused code
+
+//WebElement mapObject = driver.findElement(By.xpath("//*[contains(@style, 'content.foto.my.mail.ru/mail')]"));
+//
+//((JavascriptExecutor) driver).executeScript("arguments[1].click();", mapObject);
+// 
+//driver.findElement(By.xpath(closeButton)).click();
+
+
+
+//((JavascriptExecutor) driver).executeScript("arguments[1].click();", mapObject);
+//driver.findElement(By.xpath("//*[contains(@id,'b-photo-close')]")).click();
+//((JavascriptExecutor) driver).executeScript("arguments[2].click();", mapObject);
+
+
+
+//jsx.executeScript("window.scrollBy(0,900)", "");
+//jsx.executeScript("window.scrollBy(0,900)", "");
+//for (Iterator i = a.iterator(); i.hasNext(); ) {
+//a.get(1).click(); //opens chat window for some reason ,doesn't work
+
+
+
+
+//List<WebElement> a=driver.findElements(By.xpath("//*[contains(@type,'photolayer')][contains(@style,'content.foto.my.mail.ru/mail')]")) ;
+//System.out.println(a.size());
+//for(WebElement ele:a)
+//{
+//          
+//  ele.click();
+// driver.findElement(By.xpath(closeButton)).click();
+//
+//}
+
+
+//WebElement element = driver.findElement(By.id("something"));
+//JavascriptExecutor executor = (JavascriptExecutor)driver;
+//executor.executeScript("arguments[0].click();", element);
+
+
+
+
+
+//for(int loop=0;loop<100;loop++){
+//if(!driver.findElements(By.xpath("/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[1]/div["+user+"]/div[2]/div[2]/a[1]")).isEmpty()){
+//driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[1]/div["+user+"]/div[2]/div[2]/a[1]")).click();
+//}
+//else{
+//	JavascriptExecutor jsx = (JavascriptExecutor)driver;
+//	jsx.executeScript("window.scrollBy(0,200)", "");
+//	if(!driver.findElements(By.xpath("/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[1]/div["+user+"]/div[2]/div[2]/a[1]")).isEmpty()){
+//	    driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div/div/div[2]/div[1]/div["+user+"]/div[2]/div[2]/a[1]")).click();
+//	    }
+//}
+//if(!driver.findElements(By.xpath(voteFive)).isEmpty()){
+//	driver.findElement(By.xpath(voteFive)).click();   	
+//   clicked ++ ;
+//	
+//}
+//driver.findElement(By.xpath(closeButton)).click();
+//user++;
+//if (clicked>=3){  //if more than 4 clicked scroll the page down
+//	JavascriptExecutor jsx = (JavascriptExecutor)driver;
+//	jsx.executeScript("window.scrollBy(0,200)", "");
+//}
+//}
+
+
+
+//((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+//Thread.sleep(500); 
+
+
+
+
+//Actions actions = new Actions(driver);
+//actions.moveToElement(element);
+
+
+
+//by.linkText
+
+
+//List<WebElement> list = driver.findElements(By.xpath("//*[contains(text(),'" + text + "')]")); //look for text on page
+//Assert.assertTrue("Text not found!", list.size() > 0);
+
+
+
+//public static int randInt() {
+//
+//    // NOTE: This will (intentionally) not run as written so that folks
+//    // copy-pasting have to think about how to initialize their
+//    // Random instance.  Initialization of the Random instance is outside
+//    // the main scope of the question, but some decent options are to have
+//    // a field that is initialized once and then re-used as needed or to
+//    // use ThreadLocalRandom (if using at least Java 1.7).
+//    Random rand = null;
+//
+//    // nextInt is normally exclusive of the top value,
+//    // so add 1 to make it inclusive
+//    int randomNum = rand.nextInt((12 - 1) + 1) + 1;
+//
+//    return randomNum;
+//}
+
+

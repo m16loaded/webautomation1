@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="2" failures="0" hostname="NoNaMe" name="qq.bobo" tests="1" time="50.072" timestamp="2014-09-03T10:32:48">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/D:/JavaDevEclipse/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/templates/" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="os.name" value="Windows 7" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes" />
+    <property name="env.COMPUTERNAME" value="NONAME" />
+    <property name="user.country.format" value="IL" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="D:\JavaDevEclipse\plugins\org.apache.ant_1.8.4.v201303080030" />
+    <property name="java.runtime.version" value="1.7.0_67-b01" />
+    <property name="env.HOMEPATH" value="\Users\Igor" />
+    <property name="user.name" value="Igor" />
+    <property name="user.language.format" value="he" />
+    <property name="user.language" value="en" />
+    <property name="env.windows_tracing_flags" value="3" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre7\bin" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="Experements" />
+    <property name="java.version" value="1.7.0_67" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="x86 Family 6 Model 15 Stepping 13, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.TEMP" value="C:\Users\Igor\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre7\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1251" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="ECLIPSE_HOME" value="../../JavaDevEclipse" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jre7" />
+    <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\" />
+    <property name="env.ANDROID_HOME" value="D:\android-sdk-UPDATED" />
+    <property name="env.APPDATA" value="C:\Users\Igor\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="env.windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="ant.file" value="D:\JavaProjects\Experements\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="env.AMDAPPSDKROOT" value="C:\Program Files\AMD APP\" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="24.65-b04" />
+    <property name="user.variant" value="" />
+    <property name="env.USERPROFILE" value="C:\Users\Igor" />
+    <property name="ant.library.dir" value="D:\JavaDevEclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.MOZ_DISABLE_OOP_PLUGINS" value="1" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.7.0_45" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\Igor\AppData\Local\Temp" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="ant.file.Experements" value="D:\JavaProjects\Experements\build.xml" />
+    <property name="user.script" value="" />
+    <property name="eclipse.pdebuild.scripts" value="/D:/JavaDevEclipse/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/scripts/" />
+    <property name="user.home" value="C:\Users\Igor" />
+    <property name="target" value="1.7" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.M2_HOME" value="D:\apache-maven-3.2.2" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.library.path" value="C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre7/bin/client;C:/Program Files/Java/jre7/bin;C:/Program Files/Java/jre7/lib/i386;c:\Program Files\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Program Files\AMD APP\bin\x86;C:\Program Files\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\adt-bundle-windows-x86\adt-bundle-windows-x86\sdk\platform-tools;C:\Program Files\Common Files\Teleca Shared;C:\Program Files\Java\jdk1.7.0_45\bin;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;d:\Program Files\SqliteBrowser3\bin;D:\android-sdk-UPDATED\tools;D:\Program Files\nodejs\;d:\Program Files\Git\cmd;%M2%;C:\python27;C:\Users\Igor\AppData\Roaming\npm;D:\apache-maven-3.2.2\bin;D:\JavaDevEclipse;;." />
+    <property name="env.NUMBER_OF_PROCESSORS" value="2" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="ant.file.type.Experements" value="file" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.4 compiled on May 22 2012" />
+    <property name="java.class.path" value="D:\JavaProjects\Experements\bin;D:\android-sdk-UPDATED\platform-tools\selendroid-standalone-0.10.0-with-dependencies.jar;D:\JavaDevEclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar;D:\JavaDevEclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;D:\JavaDevEclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-launcher.jar;D:\JavaDevEclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant.jar;D:\JavaDevEclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-junit.jar;D:\JavaDevEclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner qq.bobo filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\JavaProjects\Experements\junit\TEST-qq.bobo.xml crashfile=D:\JavaProjects\Experements\junitvmwatcher4331114063194470317.properties propsfile=D:\JavaProjects\Experements\junit7011560599765377740.properties" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.windir" value="C:\Windows" />
+    <property name="env.LOGONSERVER" value="\\NONAME" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="x86" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="env.HOME" value="C:\Users\Igor" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ANT_HOME" value="D:\JavaDevEclipse\plugins\org.apache.ant_1.8.4.v201303080030" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="eclipse.pdebuild.home" value="/D:/JavaDevEclipse/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/./" />
+    <property name="java.io.tmpdir" value="C:\Users\Igor\AppData\Local\Temp\" />
+    <property name="env.PROCESSOR_REVISION" value="0f0d" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.MAVEN_OPTS" value="-Xms256m -Xmx512m" />
+    <property name="env.SystemRoot" value="C:\Windows" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="x86" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre7\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="D:\JavaProjects\Experements" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\Igor\AppData\Local" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.Path" value="C:/Program Files/Java/jre7/bin/client;C:/Program Files/Java/jre7/bin;C:/Program Files/Java/jre7/lib/i386;c:\Program Files\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Program Files\AMD APP\bin\x86;C:\Program Files\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\adt-bundle-windows-x86\adt-bundle-windows-x86\sdk\platform-tools;C:\Program Files\Common Files\Teleca Shared;C:\Program Files\Java\jdk1.7.0_45\bin;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;d:\Program Files\SqliteBrowser3\bin;D:\android-sdk-UPDATED\tools;D:\Program Files\nodejs\;d:\Program Files\Git\cmd;%M2%;C:\python27;C:\Users\Igor\AppData\Roaming\npm;D:\apache-maven-3.2.2\bin;D:\JavaDevEclipse;" />
+    <property name="basedir" value="D:\JavaProjects\Experements" />
+    <property name="env.DEFAULT_CA_NR" value="CA100" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="env.M2" value="D:\apache-maven-3.2.2\bin" />
+    <property name="ant.core.lib" value="D:\JavaDevEclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant.jar" />
+    <property name="env.USERNAME" value="Igor" />
+    <property name="source" value="1.7" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="file.encoding" value="Cp1251" />
+    <property name="env.USERDOMAIN" value="NoNaMe" />
+    <property name="env.C_IA32_REDIST12" value="c:\Program Files\Common Files\Intel\Shared Libraries\" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ant.project.invoked-targets" value="build,bobo,junitreport" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="qq.bobo" name="test" time="49.781">
+    <error message="Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: &#xa;ons.xpi&#x9;DEBUG&#x9;checkForChanges&#xd;&#xa;1409740369840&#x9;addons.xpi&#x9;DEBUG&#x9;Directory state JSON differs: cache [] state [{&quot;name&quot;:&quot;winreg-app-global&quot;,&quot;addons&quot;:{&quot;fiddlerhook@fiddler2.com&quot;:{&quot;descriptor&quot;:&quot;C:\\Program Files\\Fiddler2\\FiddlerHook&quot;,&quot;mtime&quot;:1402862717440,&quot;rdfTime&quot;:1391542948000}}},{&quot;name&quot;:&quot;app-global&quot;,&quot;addons&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;descriptor&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;mtime&quot;:1409738596180,&quot;rdfTime&quot;:1409738595860}}},{&quot;name&quot;:&quot;app-profile&quot;,&quot;addons&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;descriptor&quot;:&quot;C:\\Users\\Igor\\AppData\\Local\\Temp\\anonymous8673857367681323093webdriver-profile\\extensions\\fxdriver@googlecode.com&quot;,&quot;mtime&quot;:1409740369331,&quot;rdfTime&quot;:1409740369302}}}]&#xd;&#xa;1409740369848&#x9;addons.xpi-utils&#x9;DEBUG&#x9;Opening XPI database C:\Users\Igor\AppData\Local\Temp\anonymous8673857367681323093webdriver-profile\extensions.json&#xd;&#xa;1409740369850&#x9;addons.xpi&#x9;DEBUG&#x9;New add-on fxdriver@googlecode.com installed in app-profile&#xd;&#xa;*** Blocklist::_loadBlocklistFromFile: blocklist is disabled&#xd;&#xa;1409740370172&#x9;addons.xpi-utils&#x9;DEBUG&#x9;Make addon app-profile:fxdriver@googlecode.com visible&#xd;&#xa;1409740370177&#x9;DeferredSave.extensions.json&#x9;DEBUG&#x9;Save changes&#xd;&#xa;1409740370178&#x9;DeferredSave.extensions.json&#x9;DEBUG&#x9;Save changes&#xd;&#xa;1409740370179&#x9;addons.xpi&#x9;DEBUG&#x9;New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global&#xd;&#xa;1409740370183&#x9;addons.xpi-utils&#x9;DEBUG&#x9;Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible&#xd;&#xa;1409740370184&#x9;DeferredSave.extensions.json&#x9;DEBUG&#x9;Save changes&#xd;&#xa;1409740370184&#x9;DeferredSave.extensions.json&#x9;DEBUG&#x9;Save changes&#xd;&#xa;1409740370184&#x9;addons.xpi&#x9;DEBUG&#x9;New add-on fiddlerhook@fiddler2.com installed in winreg-app-global&#xd;&#xa;1409740370193&#x9;addons.xpi-utils&#x9;DEBUG&#x9;Make addon winreg-app-global:fiddlerhook@fiddler2.com visible&#xd;&#xa;1409740370193&#x9;DeferredSave.extensions.json&#x9;DEBUG&#x9;Save changes&#xd;&#xa;1409740370194&#x9;DeferredSave.extensions.json&#x9;DEBUG&#x9;Save changes&#xd;&#xa;1409740370211&#x9;addons.xpi&#x9;DEBUG&#x9;Updating database with changes to installed add-ons&#xd;&#xa;1409740370211&#x9;addons.xpi-utils&#x9;DEBUG&#x9;Updating add-on states&#xd;&#xa;1409740370211&#x9;addons.xpi-utils&#x9;DEBUG&#x9;Writing add-ons list&#xd;&#xa;1409740372000&#x9;DeferredSave.extensions.json&#x9;DEBUG&#x9;Starting timer&#xd;&#xa;1409740372025&#x9;DeferredSave.extensions.json&#x9;DEBUG&#x9;Starting write&#xd;&#xa;1409740372080&#x9;addons.manager&#x9;DEBUG&#x9;shutdown&#xd;&#xa;1409740372083&#x9;addons.xpi&#x9;DEBUG&#x9;shutdown&#xd;&#xa;1409740372083&#x9;addons.xpi-utils&#x9;DEBUG&#x9;shutdown&#xd;&#xa;1409740372154&#x9;DeferredSave.extensions.json&#x9;DEBUG&#x9;Write succeeded&#xd;&#xa;1409740372154&#x9;addons.xpi-utils&#x9;DEBUG&#x9;XPI Database saved, setting schema version preference to 16&#xd;&#xa;1409740372154&#x9;addons.xpi&#x9;DEBUG&#x9;Notifying XPI shutdown observers&#xd;&#xa;1409740372158&#x9;addons.manager&#x9;DEBUG&#x9;Async provider shutdown done&#xd;&#xa;1409740373045&#x9;addons.manager&#x9;DEBUG&#x9;Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: [&quot;XPIProvider&quot;]&#xd;&#xa;1409740373048&#x9;addons.manager&#x9;DEBUG&#x9;Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: [&quot;LightweightThemeManager&quot;]&#xd;&#xa;1409740373050&#x9;addons.xpi&#x9;DEBUG&#x9;startup&#xd;&#xa;1409740373051&#x9;addons.xpi&#x9;INFO&#x9;Mapping fiddlerhook@fiddler2.com to C:\Program Files\Fiddler2\FiddlerHook&#xd;&#xa;1409740373052&#x9;addons.xpi&#x9;DEBUG&#x9;Skipping unavailable install location app-system-local&#xd;&#xa;1409740373052&#x9;addons.xpi&#x9;DEBUG&#x9;Skipping unavailable install location app-system-share&#xd;&#xa;1409740373053&#x9;addons.xpi&#x9;INFO&#x9;Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}&#xd;&#xa;1409740373054&#x9;addons.xpi&#x9;INFO&#x9;Mapping fxdriver@googlecode.com to C:\Users\Igor\AppData\Local\Temp\anonymous8673857367681323093webdriver-profile\extensions\fxdriver@googlecode.com&#xd;&#xa;1409740373054&#x9;addons.xpi&#x9;DEBUG&#x9;Ignoring file entry whose name is not a valid add-on ID: C:\Users\Igor\AppData\Local\Temp\anonymous8673857367681323093webdriver-profile\extensions\webdriver-staging&#xd;&#xa;1409740373055&#x9;addons.xpi&#x9;DEBUG&#x9;checkForChanges&#xd;&#xa;1409740373073&#x9;addons.xpi&#x9;DEBUG&#x9;No changes found&#xd;&#xa;*** Blocklist::_preloadBlocklistFile: blocklist is disabled&#xd;&#xa;JavaScript error: chrome://browser/content/urlbarBindings.xml, line 677: aUrl is undefined&#xd;&#xa;&#xa;Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#xa;System info: host: &apos;NoNaMe&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_67&apos;&#xa;Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ons.xpi	DEBUG	checkForChanges
+1409740369840	addons.xpi	DEBUG	Directory state JSON differs: cache [] state [{&quot;name&quot;:&quot;winreg-app-global&quot;,&quot;addons&quot;:{&quot;fiddlerhook@fiddler2.com&quot;:{&quot;descriptor&quot;:&quot;C:\\Program Files\\Fiddler2\\FiddlerHook&quot;,&quot;mtime&quot;:1402862717440,&quot;rdfTime&quot;:1391542948000}}},{&quot;name&quot;:&quot;app-global&quot;,&quot;addons&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;descriptor&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;mtime&quot;:1409738596180,&quot;rdfTime&quot;:1409738595860}}},{&quot;name&quot;:&quot;app-profile&quot;,&quot;addons&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;descriptor&quot;:&quot;C:\\Users\\Igor\\AppData\\Local\\Temp\\anonymous8673857367681323093webdriver-profile\\extensions\\fxdriver@googlecode.com&quot;,&quot;mtime&quot;:1409740369331,&quot;rdfTime&quot;:1409740369302}}}]
+1409740369848	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\Igor\AppData\Local\Temp\anonymous8673857367681323093webdriver-profile\extensions.json
+1409740369850	addons.xpi	DEBUG	New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1409740370172	addons.xpi-utils	DEBUG	Make addon app-profile:fxdriver@googlecode.com visible
+1409740370177	DeferredSave.extensions.json	DEBUG	Save changes
+1409740370178	DeferredSave.extensions.json	DEBUG	Save changes
+1409740370179	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1409740370183	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1409740370184	DeferredSave.extensions.json	DEBUG	Save changes
+1409740370184	DeferredSave.extensions.json	DEBUG	Save changes
+1409740370184	addons.xpi	DEBUG	New add-on fiddlerhook@fiddler2.com installed in winreg-app-global
+1409740370193	addons.xpi-utils	DEBUG	Make addon winreg-app-global:fiddlerhook@fiddler2.com visible
+1409740370193	DeferredSave.extensions.json	DEBUG	Save changes
+1409740370194	DeferredSave.extensions.json	DEBUG	Save changes
+1409740370211	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1409740370211	addons.xpi-utils	DEBUG	Updating add-on states
+1409740370211	addons.xpi-utils	DEBUG	Writing add-ons list
+1409740372000	DeferredSave.extensions.json	DEBUG	Starting timer
+1409740372025	DeferredSave.extensions.json	DEBUG	Starting write
+1409740372080	addons.manager	DEBUG	shutdown
+1409740372083	addons.xpi	DEBUG	shutdown
+1409740372083	addons.xpi-utils	DEBUG	shutdown
+1409740372154	DeferredSave.extensions.json	DEBUG	Write succeeded
+1409740372154	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 16
+1409740372154	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1409740372158	addons.manager	DEBUG	Async provider shutdown done
+1409740373045	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: [&quot;XPIProvider&quot;]
+1409740373048	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: [&quot;LightweightThemeManager&quot;]
+1409740373050	addons.xpi	DEBUG	startup
+1409740373051	addons.xpi	INFO	Mapping fiddlerhook@fiddler2.com to C:\Program Files\Fiddler2\FiddlerHook
+1409740373052	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1409740373052	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1409740373053	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1409740373054	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Igor\AppData\Local\Temp\anonymous8673857367681323093webdriver-profile\extensions\fxdriver@googlecode.com
+1409740373054	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Igor\AppData\Local\Temp\anonymous8673857367681323093webdriver-profile\extensions\webdriver-staging
+1409740373055	addons.xpi	DEBUG	checkForChanges
+1409740373073	addons.xpi	DEBUG	No changes found
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 677: aUrl is undefined
+
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;NoNaMe&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_67&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
+	at qq.bobo.setUp(bobo.java:26)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ons.xpi	DEBUG	checkForChanges
+1409740369840	addons.xpi	DEBUG	Directory state JSON differs: cache [] state [{&quot;name&quot;:&quot;winreg-app-global&quot;,&quot;addons&quot;:{&quot;fiddlerhook@fiddler2.com&quot;:{&quot;descriptor&quot;:&quot;C:\\Program Files\\Fiddler2\\FiddlerHook&quot;,&quot;mtime&quot;:1402862717440,&quot;rdfTime&quot;:1391542948000}}},{&quot;name&quot;:&quot;app-global&quot;,&quot;addons&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;descriptor&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;mtime&quot;:1409738596180,&quot;rdfTime&quot;:1409738595860}}},{&quot;name&quot;:&quot;app-profile&quot;,&quot;addons&quot;:{&quot;fxdriver@googlecode.com&quot;:{&quot;descriptor&quot;:&quot;C:\\Users\\Igor\\AppData\\Local\\Temp\\anonymous8673857367681323093webdriver-profile\\extensions\\fxdriver@googlecode.com&quot;,&quot;mtime&quot;:1409740369331,&quot;rdfTime&quot;:1409740369302}}}]
+1409740369848	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\Igor\AppData\Local\Temp\anonymous8673857367681323093webdriver-profile\extensions.json
+1409740369850	addons.xpi	DEBUG	New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1409740370172	addons.xpi-utils	DEBUG	Make addon app-profile:fxdriver@googlecode.com visible
+1409740370177	DeferredSave.extensions.json	DEBUG	Save changes
+1409740370178	DeferredSave.extensions.json	DEBUG	Save changes
+1409740370179	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1409740370183	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1409740370184	DeferredSave.extensions.json	DEBUG	Save changes
+1409740370184	DeferredSave.extensions.json	DEBUG	Save changes
+1409740370184	addons.xpi	DEBUG	New add-on fiddlerhook@fiddler2.com installed in winreg-app-global
+1409740370193	addons.xpi-utils	DEBUG	Make addon winreg-app-global:fiddlerhook@fiddler2.com visible
+1409740370193	DeferredSave.extensions.json	DEBUG	Save changes
+1409740370194	DeferredSave.extensions.json	DEBUG	Save changes
+1409740370211	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1409740370211	addons.xpi-utils	DEBUG	Updating add-on states
+1409740370211	addons.xpi-utils	DEBUG	Writing add-ons list
+1409740372000	DeferredSave.extensions.json	DEBUG	Starting timer
+1409740372025	DeferredSave.extensions.json	DEBUG	Starting write
+1409740372080	addons.manager	DEBUG	shutdown
+1409740372083	addons.xpi	DEBUG	shutdown
+1409740372083	addons.xpi-utils	DEBUG	shutdown
+1409740372154	DeferredSave.extensions.json	DEBUG	Write succeeded
+1409740372154	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 16
+1409740372154	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1409740372158	addons.manager	DEBUG	Async provider shutdown done
+1409740373045	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: [&quot;XPIProvider&quot;]
+1409740373048	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: [&quot;LightweightThemeManager&quot;]
+1409740373050	addons.xpi	DEBUG	startup
+1409740373051	addons.xpi	INFO	Mapping fiddlerhook@fiddler2.com to C:\Program Files\Fiddler2\FiddlerHook
+1409740373052	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1409740373052	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1409740373053	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1409740373054	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Igor\AppData\Local\Temp\anonymous8673857367681323093webdriver-profile\extensions\fxdriver@googlecode.com
+1409740373054	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Igor\AppData\Local\Temp\anonymous8673857367681323093webdriver-profile\extensions\webdriver-staging
+1409740373055	addons.xpi	DEBUG	checkForChanges
+1409740373073	addons.xpi	DEBUG	No changes found
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 677: aUrl is undefined
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+</error>
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at qq.bobo.tearDown(bobo.java:31)
+</error>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ons.xpi	DEBUG	checkForChanges
+1409740369840	addons.xpi	DEBUG	Directory state JSON differs: cache [] state [{"name":"winreg-app-global","addons":{"fiddlerhook@fiddler2.com":{"descriptor":"C:\\Program Files\\Fiddler2\\FiddlerHook","mtime":1402862717440,"rdfTime":1391542948000}}},{"name":"app-global","addons":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"descriptor":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","mtime":1409738596180,"rdfTime":1409738595860}}},{"name":"app-profile","addons":{"fxdriver@googlecode.com":{"descriptor":"C:\\Users\\Igor\\AppData\\Local\\Temp\\anonymous8673857367681323093webdriver-profile\\extensions\\fxdriver@googlecode.com","mtime":1409740369331,"rdfTime":1409740369302}}}]
+1409740369848	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\Igor\AppData\Local\Temp\anonymous8673857367681323093webdriver-profile\extensions.json
+1409740369850	addons.xpi	DEBUG	New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1409740370172	addons.xpi-utils	DEBUG	Make addon app-profile:fxdriver@googlecode.com visible
+1409740370177	DeferredSave.extensions.json	DEBUG	Save changes
+1409740370178	DeferredSave.extensions.json	DEBUG	Save changes
+1409740370179	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1409740370183	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1409740370184	DeferredSave.extensions.json	DEBUG	Save changes
+1409740370184	DeferredSave.extensions.json	DEBUG	Save changes
+1409740370184	addons.xpi	DEBUG	New add-on fiddlerhook@fiddler2.com installed in winreg-app-global
+1409740370193	addons.xpi-utils	DEBUG	Make addon winreg-app-global:fiddlerhook@fiddler2.com visible
+1409740370193	DeferredSave.extensions.json	DEBUG	Save changes
+1409740370194	DeferredSave.extensions.json	DEBUG	Save changes
+1409740370211	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1409740370211	addons.xpi-utils	DEBUG	Updating add-on states
+1409740370211	addons.xpi-utils	DEBUG	Writing add-ons list
+1409740372000	DeferredSave.extensions.json	DEBUG	Starting timer
+1409740372025	DeferredSave.extensions.json	DEBUG	Starting write
+1409740372080	addons.manager	DEBUG	shutdown
+1409740372083	addons.xpi	DEBUG	shutdown
+1409740372083	addons.xpi-utils	DEBUG	shutdown
+1409740372154	DeferredSave.extensions.json	DEBUG	Write succeeded
+1409740372154	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 16
+1409740372154	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1409740372158	addons.manager	DEBUG	Async provider shutdown done
+1409740373045	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1409740373048	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1409740373050	addons.xpi	DEBUG	startup
+1409740373051	addons.xpi	INFO	Mapping fiddlerhook@fiddler2.com to C:\Program Files\Fiddler2\FiddlerHook
+1409740373052	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1409740373052	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1409740373053	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1409740373054	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Igor\AppData\Local\Temp\anonymous8673857367681323093webdriver-profile\extensions\fxdriver@googlecode.com
+1409740373054	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Igor\AppData\Local\Temp\anonymous8673857367681323093webdriver-profile\extensions\webdriver-staging
+1409740373055	addons.xpi	DEBUG	checkForChanges
+1409740373073	addons.xpi	DEBUG	No changes found
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 677: aUrl is undefined
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at qq.bobo.setUp(bobo.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:520)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1060)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:911)
+]]></system-err>
+</testsuite>
